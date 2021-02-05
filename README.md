@@ -9,12 +9,14 @@ Deep Learning Macchine Learning Model.
 
    ### Data Preprocessing 
    
-   - The target variable for this model is whether the efficiency of the money use was successful or not. 
-   - The variables considered to be features after optimization were: application type, affiliated
-         sector of industry, use case for funding and Funding amount requested
+   - The target variable for this model is the columns:"IS_SUCCESSFUL"-- whether the efficiency of the 
+      money use was successful or not. 
+   - The variables considered to be features after optimization were the columns: application type, 
+     'AFFILIATION' -- affiliated, 'CLASSIFICATION'--sector of industry, 'USE_CASE'--use case for 
+      funding and 'INCOME_AMT'--Funding amount requested
    - The variables that were neither targets nor features include: Identification columns
-   ("EIN", "NAMES"),"SPECIAL_CONSIDERATIONS"--Special consideration for application,
-   "ORGANIZATION"--Organization type.
+      ("EIN", "NAMES"),"SPECIAL_CONSIDERATIONS"--Special consideration for application,
+       "ORGANIZATION"--Organization type.
 
    ### Compiling, Training, and Evaluating the Model
    - Overall, I used three neurons and three hidden layers as well as the "sigmoid" function for all 
