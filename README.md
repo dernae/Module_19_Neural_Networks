@@ -7,9 +7,16 @@ more than 34,000 organizations that have received funding from the business over
 ## Results
 
    ### Data Preprocessing 
+   
+      - The target variable for this model is whether the efficiency of the money use was successful or not. 
+      - The variables considered to be features after optimization were: application type, affiliated
+         sector of industry, use case for funding and Funding amount requested
+      - The variables that were neither targets nor features include: Identification columns
+         ("EIN", "NAMES"),"SPECIAL_CONSIDERATIONS"--Special consideration for application,
+         "ORGANIZATION"--Organization type.
 
    ### Compiling, Training, and Evaluating the Model
-
-
-
+ 
+ 
+ 
 ## Summary
