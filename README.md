@@ -6,9 +6,9 @@ more than 34,000 organizations that have received funding from the business over
 
 ## Results
 
-### Data Preprocessing 
+   ### Data Preprocessing 
 
-### Compiling, Training, and Evaluating the Model
+   ### Compiling, Training, and Evaluating the Model
 
 
 
